@@ -12,14 +12,14 @@
   },
   "gigi-checker": {
     "name": "Gigi Checker",
-    "version": "1.0.5",
-    "zip_url": "https://cdn.jsdelivr.net/gh/hippocampestudio/downloads@main/gigi-checker-1.0.5.zip",
+    "version": "1.0.6",
+    "zip_url": "https://cdn.jsdelivr.net/gh/hippocampestudio/downloads@main/gigi-checker-1.0.6.zip",
     "requires": "6.4",
     "requires_php": "8.1",
     "tested": "6.7",
     "last_updated": "2026-03-18",
     "description": "Vérifie les mises à jour du thème et des plugins Gigi via jsDelivr (GitHub).",
-    "changelog": "<h4>1.0.5</h4><ul><li>Migration vers jsDelivr (CDN GitHub) — résout les blocages Bitbucket sur o2switch</li><li>URL par défaut mise à jour automatiquement</li></ul><h4>1.0.4</h4><ul><li>Affichage de l'erreur exacte (WP_Error, HTTP code, JSON invalide)</li><li>URL versions.json configurable depuis Outils → Gigi Checker sans déploiement</li></ul><h4>1.0.3</h4><ul><li>Page d'état Outils → Gigi Checker</li><li>Contournement cache CDN Bitbucket</li></ul><h4>1.0.2</h4><ul><li>Double hook pre_set + site_transient</li><li>Redirection force-check avec nonce valide</li></ul><h4>1.0.1</h4><ul><li>Correctif hook site_transient</li></ul><h4>1.0.0</h4><ul><li>Version initiale</li></ul>"
+    "changelog": "<h4>1.0.6</h4><ul><li>versions.json servi via raw.githubusercontent.com (cache 5 min) — plus de dépendance au purge jsDelivr</li><li>ZIPs toujours via jsDelivr CDN (immutables)</li></ul><h4>1.0.5</h4><ul><li>Migration vers jsDelivr (CDN GitHub) — résout les blocages Bitbucket sur o2switch</li><li>URL par défaut mise à jour automatiquement</li></ul><h4>1.0.4</h4><ul><li>Affichage de l'erreur exacte (WP_Error, HTTP code, JSON invalide)</li><li>URL versions.json configurable depuis Outils → Gigi Checker sans déploiement</li></ul><h4>1.0.3</h4><ul><li>Page d'état Outils → Gigi Checker</li><li>Contournement cache CDN Bitbucket</li></ul><h4>1.0.2</h4><ul><li>Double hook pre_set + site_transient</li><li>Redirection force-check avec nonce valide</li></ul><h4>1.0.1</h4><ul><li>Correctif hook site_transient</li></ul><h4>1.0.0</h4><ul><li>Version initiale</li></ul>"
   },
   "gigi-blocks": {
     "name": "Gigi Blocks",
