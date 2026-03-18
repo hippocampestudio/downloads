@@ -2,29 +2,29 @@
   "gigi-theme": {
     "name": "Gigi Theme",
     "version": "1.3.0",
-    "zip_url": "https://bitbucket.org/antibo/downloads/raw/main/gigi-theme-1.3.0.zip",
+    "zip_url": "https://cdn.jsdelivr.net/gh/hippocampestudio/downloads@main/gigi-theme-1.3.0.zip",
     "requires": "6.4",
     "requires_php": "8.1",
     "tested": "6.7",
     "last_updated": "2026-03-18",
     "description": "Thème de blocs WordPress pour les sites du groupe Gigi.",
-    "changelog": "<h4>1.3.0</h4><ul><li>Palette simplifiée : couleurs GIGI uniquement (custom-gigi-*)</li><li>Suppression Playfair Display — Zuume devient la police des titres (uppercase)</li><li>Spacing numérique (20→80) compatible avec les compositions</li><li>5 compositions de blocs intégrées comme patterns</li><li>Catégorie de pattern "Gigi" enregistrée</li></ul><h4>1.2.0</h4><ul><li>Ajout police Zuume (display, tous poids 200-900)</li><li>Poids supplémentaires Inter (100, 200, 800, 900)</li><li>Palette complète : Jaune, Rouge, Orange, Bleu GIGI + Gris moyen, Gris clair, Gris foncé alt</li><li>Correction contentSize (768px)</li><li>Boutons : border-radius 5px</li><li>Caption : font Inter</li><li>Support upload SVG</li></ul><h4>1.1.1</h4><ul><li>Ajout du screenshot</li></ul><h4>1.1.0</h4><ul><li>Suppression des templates 404, blank, full-width, page et single</li></ul><h4>1.0.0</h4><ul><li>Version initiale</li></ul>"
+    "changelog": "<h4>1.3.0</h4><ul><li>Palette simplifiée : couleurs GIGI uniquement (custom-gigi-*)</li><li>Suppression Playfair Display — Zuume devient la police des titres (uppercase)</li><li>Spacing numérique (20→80) compatible avec les compositions</li><li>5 compositions de blocs intégrées comme patterns</li><li>Catégorie de pattern \"Gigi\" enregistrée</li></ul><h4>1.2.0</h4><ul><li>Ajout police Zuume (display, tous poids 200-900)</li><li>Poids supplémentaires Inter (100, 200, 800, 900)</li><li>Palette complète : Jaune, Rouge, Orange, Bleu GIGI + Gris moyen, Gris clair, Gris foncé alt</li><li>Correction contentSize (768px)</li><li>Boutons : border-radius 5px</li><li>Caption : font Inter</li><li>Support upload SVG</li></ul><h4>1.1.1</h4><ul><li>Ajout du screenshot</li></ul><h4>1.1.0</h4><ul><li>Suppression des templates 404, blank, full-width, page et single</li></ul><h4>1.0.0</h4><ul><li>Version initiale</li></ul>"
   },
   "gigi-checker": {
     "name": "Gigi Checker",
-    "version": "1.0.4",
-    "zip_url": "https://bitbucket.org/antibo/downloads/raw/main/gigi-checker-1.0.4.zip",
+    "version": "1.0.5",
+    "zip_url": "https://cdn.jsdelivr.net/gh/hippocampestudio/downloads@main/gigi-checker-1.0.5.zip",
     "requires": "6.4",
     "requires_php": "8.1",
     "tested": "6.7",
     "last_updated": "2026-03-18",
-    "description": "Vérifie les mises à jour du thème et des plugins Gigi via Bitbucket.",
-    "changelog": "<h4>1.0.4</h4><ul><li>Affichage de l'erreur exacte (WP_Error, HTTP code, JSON invalide)</li><li>URL versions.json configurable depuis Outils → Gigi Checker sans déploiement</li></ul><h4>1.0.3</h4><ul><li>Page d'état Outils → Gigi Checker (diagnostic versions + transients)</li><li>Contournement cache CDN Bitbucket (paramètre ?ts= + no-cache headers)</li></ul><h4>1.0.2</h4><ul><li>Double hook pre_set + site_transient pour injection garantie</li><li>Supprime les plugins de no_update avant de les ajouter à response</li><li>Redirection force-check avec nonce valide</li><li>Notice d'erreur si versions.json inaccessible</li></ul><h4>1.0.1</h4><ul><li>Correctif hook site_transient</li></ul><h4>1.0.0</h4><ul><li>Version initiale</li></ul>"
+    "description": "Vérifie les mises à jour du thème et des plugins Gigi via jsDelivr (GitHub).",
+    "changelog": "<h4>1.0.5</h4><ul><li>Migration vers jsDelivr (CDN GitHub) — résout les blocages Bitbucket sur o2switch</li><li>URL par défaut mise à jour automatiquement</li></ul><h4>1.0.4</h4><ul><li>Affichage de l'erreur exacte (WP_Error, HTTP code, JSON invalide)</li><li>URL versions.json configurable depuis Outils → Gigi Checker sans déploiement</li></ul><h4>1.0.3</h4><ul><li>Page d'état Outils → Gigi Checker</li><li>Contournement cache CDN Bitbucket</li></ul><h4>1.0.2</h4><ul><li>Double hook pre_set + site_transient</li><li>Redirection force-check avec nonce valide</li></ul><h4>1.0.1</h4><ul><li>Correctif hook site_transient</li></ul><h4>1.0.0</h4><ul><li>Version initiale</li></ul>"
   },
   "gigi-blocks": {
     "name": "Gigi Blocks",
     "version": "1.2.1",
-    "zip_url": "https://bitbucket.org/antibo/downloads/raw/main/gigi-blocks-1.2.1.zip",
+    "zip_url": "https://cdn.jsdelivr.net/gh/hippocampestudio/downloads@main/gigi-blocks-1.2.1.zip",
     "requires": "6.4",
     "requires_php": "8.1",
     "tested": "6.7",
