@@ -1,14 +1,14 @@
 {
   "gigi-theme": {
     "name": "Gigi Theme",
-    "version": "1.0.0",
-    "zip_url": "https://bitbucket.org/antibo/downloads/raw/main/gigi-theme-1.0.0.zip",
+    "version": "1.1.0",
+    "zip_url": "https://bitbucket.org/antibo/downloads/raw/main/gigi-theme-1.1.0.zip",
     "requires": "6.4",
     "requires_php": "8.1",
     "tested": "6.7",
     "last_updated": "2026-03-18",
     "description": "Thème de blocs WordPress pour les sites du groupe Gigi.",
-    "changelog": "<h4>1.0.0</h4><ul><li>Version initiale</li></ul>"
+    "changelog": "<h4>1.1.0</h4><ul><li>Suppression des templates 404, blank, full-width, page et single</li></ul><h4>1.0.0</h4><ul><li>Version initiale</li></ul>"
   },
   "gigi-checker": {
     "name": "Gigi Checker",
