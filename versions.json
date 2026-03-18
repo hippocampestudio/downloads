@@ -1,14 +1,14 @@
 {
   "gigi-theme": {
     "name": "Gigi Theme",
-    "version": "1.1.1",
-    "zip_url": "https://bitbucket.org/antibo/downloads/raw/main/gigi-theme-1.1.1.zip",
+    "version": "1.2.0",
+    "zip_url": "https://bitbucket.org/antibo/downloads/raw/main/gigi-theme-1.2.0.zip",
     "requires": "6.4",
     "requires_php": "8.1",
     "tested": "6.7",
     "last_updated": "2026-03-18",
     "description": "Thème de blocs WordPress pour les sites du groupe Gigi.",
-    "changelog": "<h4>1.1.1</h4><ul><li>Ajout du screenshot</li></ul><h4>1.1.0</h4><ul><li>Suppression des templates 404, blank, full-width, page et single</li></ul><h4>1.0.0</h4><ul><li>Version initiale</li></ul>"
+    "changelog": "<h4>1.2.0</h4><ul><li>Ajout police Zuume (display, tous poids 200-900)</li><li>Poids supplémentaires Inter (100, 200, 800, 900)</li><li>Palette complète : Jaune, Rouge, Orange, Bleu GIGI + Gris moyen, Gris clair, Gris foncé alt</li><li>Correction contentSize (768px)</li><li>Boutons : border-radius 5px</li><li>Caption : font Inter</li><li>Support upload SVG</li></ul><h4>1.1.1</h4><ul><li>Ajout du screenshot</li></ul><h4>1.1.0</h4><ul><li>Suppression des templates 404, blank, full-width, page et single</li></ul><h4>1.0.0</h4><ul><li>Version initiale</li></ul>"
   },
   "gigi-checker": {
     "name": "Gigi Checker",
