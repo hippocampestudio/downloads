@@ -1,0 +1,15 @@
+# jsDelivr met en cache longtemps les fichiers @main (ex. versions.json).
+# Ce workflow purge après chaque push pour ceux qui consultent encore l’URL CDN.
+name: Purge jsDelivr
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'versions.json'
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge versions.json on jsDelivr
+        run: |
+          curl -sf "https://purge.jsdelivr.net/gh/hippocampestudio/downloads@main/versions.json" || true
