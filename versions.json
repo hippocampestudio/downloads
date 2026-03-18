@@ -12,14 +12,14 @@
   },
   "gigi-checker": {
     "name": "Gigi Checker",
-    "version": "1.0.2",
-    "zip_url": "https://bitbucket.org/antibo/downloads/raw/main/gigi-checker-1.0.2.zip",
+    "version": "1.0.3",
+    "zip_url": "https://bitbucket.org/antibo/downloads/raw/main/gigi-checker-1.0.3.zip",
     "requires": "6.4",
     "requires_php": "8.1",
     "tested": "6.7",
     "last_updated": "2026-03-18",
     "description": "Vérifie les mises à jour du thème et des plugins Gigi via Bitbucket.",
-    "changelog": "<h4>1.0.2</h4><ul><li>Double hook pre_set + site_transient pour injection garantie</li><li>Supprime les plugins de no_update avant de les ajouter à response</li><li>Redirection force-check avec nonce valide</li><li>Notice d'erreur si versions.json inaccessible</li></ul><h4>1.0.1</h4><ul><li>Correctif hook site_transient</li></ul><h4>1.0.0</h4><ul><li>Version initiale</li></ul>"
+    "changelog": "<h4>1.0.3</h4><ul><li>Page d'état Outils → Gigi Checker (diagnostic versions + transients)</li><li>Contournement cache CDN Bitbucket (paramètre ?ts= + no-cache headers)</li></ul><h4>1.0.2</h4><ul><li>Double hook pre_set + site_transient pour injection garantie</li><li>Supprime les plugins de no_update avant de les ajouter à response</li><li>Redirection force-check avec nonce valide</li><li>Notice d'erreur si versions.json inaccessible</li></ul><h4>1.0.1</h4><ul><li>Correctif hook site_transient</li></ul><h4>1.0.0</h4><ul><li>Version initiale</li></ul>"
   },
   "gigi-blocks": {
     "name": "Gigi Blocks",
